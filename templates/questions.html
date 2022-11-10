@@ -5,8 +5,13 @@
 <html>        
     <body>
         {% for question in questions %}
-        <p>{{ question.question }}</p>
+            <p>{{ question.question }}</p>
+                <input type="radio" name="{{question.choices[0]}}">{{question.choices[0]}}
+                <input type="radio" name="{{question.choices[1]}}">{{question.choices[1]}}
         {% endfor %}
+        <!-- {% for choice in questions %}
+            <p>{{ choice.choices }}</p>
+        {% endfor %} -->
     </body>
 </html>
 

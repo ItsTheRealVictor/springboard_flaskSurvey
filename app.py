@@ -11,6 +11,7 @@ debug = DebugToolbarExtension(app)
 RESPONSES = []
 
 survey_questions = satisfaction_survey.questions
+survey_choices = satisfaction_survey
 
 @app.route('/')
 def main_page():

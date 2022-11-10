@@ -55,3 +55,4 @@ surveys = {
 
 for i in range(len(satisfaction_survey.questions)):
     print(satisfaction_survey.questions[i].question)
+    print(satisfaction_survey.questions[i].choices)
