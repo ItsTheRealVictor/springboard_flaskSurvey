@@ -52,3 +52,6 @@ surveys = {
     "satisfaction": satisfaction_survey,
     "personality": personality_quiz,
 }
+
+for i in range(len(satisfaction_survey.questions)):
+    print(satisfaction_survey.questions[i].question)

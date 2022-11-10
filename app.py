@@ -10,11 +10,15 @@ debug = DebugToolbarExtension(app)
 
 RESPONSES = []
 
-
+survey_questions = satisfaction_survey.questions
 
 @app.route('/')
 def main_page():
     return render_template('home.html')
+
+@app.route('/questions/0')
+def show_first_question():
+    return render_template('questions.html', questions=survey_questions)
 
 
 if __name__ == '__main__':
