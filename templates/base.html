@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Base Template</title>
 </head>
 <body>
-    
+    <nav>
+        <a href="">I GO ON THE TOP</a>
+    </nav>
+
+    {% block content %}
+
+    THIS IS WHERE MY CONTENT GOES
+        
+    {% endblock %}
+
+
+
+    <footer>
+        I GO ON THE BOTTOM
+    </footer>
 </body>
 </html>
