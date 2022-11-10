@@ -53,6 +53,11 @@ surveys = {
     "personality": personality_quiz,
 }
 
-for i in range(len(satisfaction_survey.questions)):
-    print(satisfaction_survey.questions[i].question)
-    print(satisfaction_survey.questions[i].choices)
+# (for debugging purposes)
+
+
+# for i in range(len(satisfaction_survey.questions)):
+#     print(satisfaction_survey.questions[i].question)
+#     print(satisfaction_survey.questions[i].choices)
+# survey_questions = {id : quest.question for id, quest in enumerate(satisfaction_survey.questions)}
+# print(survey_questions)
